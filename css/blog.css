@@ -1,0 +1,355 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.c-wrapper {
+  display: block;
+}
+.container {
+  display: block;
+}
+/*header*/
+.header {
+  background-color: #f3ede9;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.navbar .text {
+  padding: 14px 0 0 140px;
+  color: rgb(75, 74, 74);
+  font-size: 20px;
+  line-height: 1px;
+}
+.Options {
+  display: flex;
+}
+.navbar .Options .a {
+  padding: 0 100px 0 0;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.navbar .Options .a:hover {
+  color: white;
+}
+.navbar .Options .a hr {
+  overflow: visible;
+  position: relative;
+  visibility: inherit;
+  width: 196px;
+  box-sizing: border-box;
+}
+.Options .a a {
+  color: black;
+  text-decoration: none;
+}
+
+.Options .a a:hover {
+  opacity: 0.5;
+}
+/*section-01*/
+.section-01 {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  width: calc(100% - var(--padding) * 2);
+  height: auto;
+  width: 100%;
+  margin-bottom: 115px;
+}
+.section-01 .item-01 {
+  background-color: #d5d5d5;
+  position: static;
+  display: grid;
+  height: auto;
+  width: 150%;
+  min-height: 697px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 100%;
+}
+.section-01 .item-01 .card {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  background-color: #f3ede9;
+  margin: 140px 450px;
+}
+.section-01 .item-01 .card h2 {
+  text-align: end;
+  letter-spacing: 0.2em;
+}
+.section-01 .item-01 .card p {
+  width: 100%;
+  text-align: end;
+  margin-bottom: 50px;
+  letter-spacing: 0.2em;
+  font-size: 16px;
+  position: static;
+  margin-left: 130px;
+}
+.section-01 .item-01 .card a {
+  text-decoration: underline;
+  color: black;
+  margin-left: 798px;
+  opacity: 0.7;
+}
+.section-01 .item-01 img {
+  width: 624px;
+  height: 562px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin: 65px 300px;
+  z-index: 1;
+}
+
+.section-01 .item-02 {
+  --bg-overlay-color: transparent;
+  --bg-gradient: none;
+  width: 100%;
+  --column-width: 363px;
+  --column-flex: 363;
+}
+.section-01 .item-02 p {
+  margin-top: 480px;
+  margin-left: 100px;
+  width: 50%;
+  letter-spacing: 0.15em;
+  font-size: 9px;
+  line-height: 1.7em;
+  text-align: right;
+}
+/*section-02*/
+.section-02 {
+  background-color: #eee6e2;
+  display: block;
+  margin-bottom: 115px;
+}
+.section-02 .item-01 img {
+  width: 537px;
+  height: 817px;
+  object-fit: cover;
+  background: transparent;
+  border: 0;
+  margin-left: 1100px;
+  outline: 0;
+  padding: 28px;
+  vertical-align: baseline;
+  position: relative;
+  z-index: 100;
+}
+
+.section-02 .item-01 .card {
+  position: absolute;
+  width: 624px;
+  height: 462px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin: 140px 650px;
+  background-color: #d5d5d5;
+}
+.section-02 .item-01 .card .card-text {
+  margin: 100px;
+  margin-top: 170px;
+}
+.section-02 .item-01 .card .card-text h2 {
+  letter-spacing: 0.2em;
+}
+.section-02 .item-01 .card .card-text p {
+  width: 50%;
+  letter-spacing: 0.15em;
+  color: white;
+  line-height: 1.7em;
+}
+.section-02 .item-01 .card .card-text a {
+  text-decoration: underline;
+  color: black;
+  opacity: 0.7;
+}
+.section-02 .item-01 .item-01-a {
+  position: absolute;
+  margin-top: 620px;
+  margin-left: 90px;
+  width: 50%;
+  letter-spacing: 0.15em;
+  font-size: 9px;
+  line-height: 1.7em;
+  text-align: right;
+}
+
+/*section-03*/
+.section-03 {
+  display: block;
+  padding: 80px 80px;
+  margin-bottom: 115px;
+}
+.section-03 .grid {
+  background-color: #858585;
+  width: 100%;
+  height: 100%;
+}
+.section-03 .grid .grid-text {
+  position: absolute;
+  margin-top: 780px;
+  margin-left: 490px;
+  width: 50%;
+  letter-spacing: 0.15em;
+  font-size: 9px;
+  line-height: 1.7em;
+  text-align: right;
+  color: white;
+}
+.section-03 .grid img {
+  width: 559px;
+  height: 600px;
+  object-fit: cover;
+  background: transparent;
+  border: 0;
+  margin-left: 900px;
+  margin-top: 150px;
+  outline: 0;
+  position: relative;
+  z-index: 100;
+}
+.section-03 .grid .grid-item {
+  position: absolute;
+  background-color: #f3ede9;
+  width: 459px;
+  height: 850px;
+  margin: 179px 0px 10px calc((100% - 980px) * 0.5);
+}
+.section-03 .grid .grid-item h2 {
+  position: absolute;
+  margin: 100px;
+  color: rgb(74, 74, 74);
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+  font-size: 24px;
+}
+.section-03 .grid .grid-item p {
+  position: absolute;
+  margin: 100px;
+  color: rgb(74, 74, 74);
+  letter-spacing: 0.15em;
+  line-height: 7em;
+  font-size: 16px;
+}
+.section-03 .grid .grid-item a {
+  position: absolute;
+  margin: 100px;
+  color: rgb(74, 74, 74);
+  text-decoration: underline;
+  color: black;
+  opacity: 0.7;
+  line-height: 18em;
+  font-size: 14px;
+}
+.section-03 .grid .grid-item .grid-item-img img {
+  position: absolute;
+  z-index: 50;
+  height: 221px;
+  width: 393px;
+  right: 120px;
+  top: 160px;
+}
+
+/*section-04*/
+
+.section-04 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 225px;
+}
+.section-04 .items {
+  display: flex;
+}
+
+.section-04 .items .item-01 {
+  width: 100%;
+  background-color: transparent;
+  padding: 150px;
+}
+.section-04 .items .item-01 img {
+  position: relative;
+  left: 100px;
+  object-fit: cover;
+  width: 440px;
+  height: 641px;
+}
+.section-04 .items .item-01 p {
+  letter-spacing: 0.15em;
+  margin-right: 115px;
+  font-size: 12px;
+  line-height: 1.2em;
+  text-align: end;
+}
+.section-04 .items .item-02 {
+  padding: 150px;
+  background-color: #bfa48d;
+  width: 100%;
+}
+.section-04 .items .item-02 .item-02-text {
+  position: relative;
+  left: 120px;
+  color: white;
+}
+.section-04 .items .item-02 .item-02-text h2 {
+  color: black;
+  letter-spacing: 0.2em;
+  font-size: 24px;
+}
+.section-04 .items .item-02 .item-02-text p {
+  letter-spacing: 0.2em;
+  font-size: 16px;
+  line-height: 0.5em;
+}
+.section-04 .items .item-02 .item-02-text a {
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  line-height: 5em;
+  color: black;
+}
+.section-04 .items .item-02 img {
+  position: relative;
+  left: 150px;
+  top: 40px;
+  width: 368px;
+  height: 431px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #d5d5d5;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .item-01 {
+  margin-left: 250px;
+  letter-spacing: 0.25em;
+  font-size: 12px;
+  line-height: normal;
+}
+.footer .item-02 {
+  margin-right: 250px;
+  letter-spacing: 0.25em;
+  font-size: 12px;
+  line-height: normal;
+}
+.footer .item-02 span i {
+  width: 37px;
+  height: 24px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  font-size: 24px;
+}
